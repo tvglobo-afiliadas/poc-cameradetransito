@@ -1,0 +1,17 @@
+{
+    "cidades": {
+        "nome": "São Paulo",
+        "cameras": [
+            {
+                "url": "http://streaming-1-radar.g1.globo.com/epradar1/spcamera01_f1/playlist.m3u8",
+                "nome": "CAMERA 01 - TESTE A",
+                "thumb": ""
+            },
+            {
+                "url": "http://streaming-1-radar.g1.globo.com/epradar1/spcamera03_f1/playlist.m3u8",
+                "nome": "CAMERA 01 - TESTE B",
+                "thumb": ""
+            }
+        ]
+    }
+}
