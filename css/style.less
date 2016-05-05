@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*
+ ************************************************************************************************************************************
+ * =RESET minified
+ ************************************************************************************************************************************
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*
+ ************************************************************************************************************************************
+ * =@imports
+ ************************************************************************************************************************************
+*/
+
+// Font
+// @import "http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300";
+
+// Paginas
+@import "page-home.less";
+
+// Plugins
+@import "plugins/lesshat.less";
+
+/*
+ ************************************************************************************************************************************
+ * =Font face
+ ************************************************************************************************************************************
+*/
+
+@font-face {
+	font-family: "Proxima Nova Bold";
+	src: url("webfont/proximanova-bold.eot");
+	src: url("webfont/proximanova-bold.eot#iefix") format("embedded-opentype"),
+	url("webfont/proximanova-bold.woff") format("woff"),
+	url("webfont/proximanova-bold.ttf") format("truetype"),
+	url("webfont/proximanova-bold.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+ ************************************************************************************************************************************
+ * =Header
+ ************************************************************************************************************************************
+*/
+
+.g1-header { display: block; } .g1-header-editoria { height: 71px; background-color: #a80000; border-bottom: 3px solid #8e0000; overflow: hidden; } .g1-header-conteudo { margin: 0 auto; max-width: 940px; } .g1-header-logo { position: absolute; margin-top: 22px; } .g1-header-title { display: table; margin: 0 auto; font-family: 'ProximaNova-Light'; color: #ffffff; font-size: 30px; font-weight: normal; line-height: 74px; letter-spacing: -1px; text-align: center; text-transform: uppercase; } .g1-header-subeditoria { font-family: 'ProximaNova-Semibold'; color: #ffffff; font-size: 18px; line-height: 35px; font-weight: normal; text-align: center; text-transform: uppercase; background: #970000; } .g1-header-antialiased { -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; font-smoothing: antialiased; } .g1-header-link { color: #ffffff; text-decoration: none; -moz-transition: opacity .3s ease; -o-transition: opacity .3s ease; -webkit-transition: opacity .3s ease; transition: opacity .3s ease; } .g1-header-link:hover { opacity: .65; } @media ( max-width: 340px ){ .g1-header-editoria { height: 44px; } .g1-header-logo { margin-top: 14px; margin-left: 20px; } .g1-header-logo img { width: 23px; height: 16px; } .g1-header-title { font-size: 18px; line-height: 48px; } .g1-header-subeditoria { font-size: 13px; line-height: 25px; } } @media all and ( min-width: 341px ) and ( max-width: 767px ){ .g1-header-editoria { height: 51px; } .g1-header-logo { margin-top: 15px; margin-left: 20px; } .g1-header-logo img { width: 29px; height: 20px; } .g1-header-title { font-size: 22px; line-height: 55px; } .g1-header-subeditoria { font-size: 13px; line-height: 25px; } } @media all and ( min-width: 768px ) and ( max-width: 980px ){ .g1-header-logo { margin-left: 20px; } }
+
+/*
+ ************************************************************************************************************************************
+ * =Footer
+ ************************************************************************************************************************************
+*/
+
+body{margin: 0;}#glb-diretorio span.glb-borda{line-height:3px;font-size:0}#glb-diretorio span.glb-borda{line-height:3px}#glb-diretorio .glb-conteudo{margin:0 auto;padding-bottom:3em}#glb-diretorio .glb-conteudo .glb-bloco{border-top:none;padding:0 0 0}#glb-diretorio .glb-conteudo ul li.diretorio-indice{margin:2.75em 0 1em 0}#glb-diretorio .glb-conteudo ul li.item-quebra-linha{margin-top:1.1em;padding:1.44em 0}#glb-diretorio .glb-conteudo .diretorio-indice strong{color:#FFF;font-size:1.17em;font-weight:bold;letter-spacing:-0.03em}#glb-diretorio .glb-conteudo ul li a{color:#FFF;font-size:.92em;line-height:1.45em}#glb-diretorio .glb-conteudo ul li a:hover{text-decoration:underline}#glb-diretorio .divisoria{border-left:1px solid;padding-left:8px}#glb-rodape{width: 100%; background-color:#800;color:#FFF;overflow:hidden;width:100%;font:12px arial,sans-serif;line-height:1}#glb-rodape .glb-conteudo{overflow:hidden;padding:13px 0}#glb-rodape a,#glb-rodape a:link,#glb-rodape a:hover{color:#FFF; font-size: 12px}#glb-rodape a:hover{text-decoration:underline}#glb-rodape ul li{border-left:1px #A00 solid;display:inline}#glb-rodape ul li a{display:inline-block;margin:0 5px 0 8px; font-size: 12px;}#glb-rodape ul li.primeiro,#glb-rodape ul li:first-child{border-left-width:0}#glb-rodape ul li.ultimo,#glb-rodape ul li:last-child{padding-right:0}#glb-rodape .rodape-logo{float:left;padding:2px 20px 0 0}#glb-rodape .rodape-logo a{display:block}#glb-rodape .rodape-logo a img{display:block;width:83px;text-indent:-9999px}#glb-rodape .rodape-menu-produtos{border-bottom:1px solid #A00;clear:both;margin-bottom:11px;overflow:hidden;padding-bottom:10px;width:100%}#glb-rodape .rodape-menu-produtos ul{font-size:12px;font-size:.75rem;float:left;padding-top:2px}#glb-rodape .rodape-menu-produtos a{font-weight:bold}#glb-rodape .rodape-menu-produtos .rodape-todos-sites{font-size:12px;font-size:.75rem;float:right;padding-top:2px}#glb-rodape .rodape-menu-servicos{font-size:11px;font-size:.6875rem}#glb-rodape .rodape-menu-servicos ul{display:inline;float:right}#glb-rodape .rodape-menu-servicos span{float:left;padding-left:1px; font-size: 11px}.sprite-no-repeat,.placa-aeroporto,.placa-aeroporto .linha{background-repeat:no-repeat;background-image:url(aeroportos/img/sprite-no-repeat-optimized.png)!important}.sprite-repeat-x,#glb-topo{background-repeat:repeat-x;background-image:url(aeroportos/img/sprite-repeat-x-optimized.png)!important}#glb-topo{background:none;background-position:0 -117px;height:184px;overflow:visible;margin-bottom:40px}#header{margin-left:0}.placa-aeroporto{font-family:ProximaNova-SemiBold;background-position:-62px 0;display:inline-block;color:#F4F4F4;font-size:25px;height:36px;line-height:25px;position:relative;text-transform:uppercase;vertical-align:top;width:65px}.placa-aeroporto .iata{display:inline-block;margin-top:6px;text-align:center;width:63px}.placa-aeroporto .linha{background-position:-127px 0;height:36px;left:2px;position:absolute;top:0;width:60px}.glb-conteudo{width:940px;margin:0 auto}.glb-bloco{display:table;width:100%}#glb-diretorio{background-color:#900;clear:both;margin-top:10px}#glb-diretorio .glb-conteudo{width:960px}#glb-diretorio .divisoria{border-color:#AF3434}#glb-topo{background:none!important}.secondary-content{display:block!important;padding: 0}
+
+@media ( max-width: 767px ) {
+    #glb-rodape{
+        margin-bottom: 0px;
+        padding: 0
+    }
+     #glb-rodape .rodape-menu-produtos ul,
+     #glb-rodape .rodape-menu-servicos ul,
+     #glb-rodape .rodape-menu-produtos .rodape-todos-sites{
+        display: none !important;
+     }
+    #glb-rodape .rodape-menu-servicos span{
+        font-size: 9px;
+    }
+
+}
+
+/*
+ ************************************************************************************************************************************
+ * =Variaveis
+ ************************************************************************************************************************************
+*/
+
+@container: 940px;
+
+/*
+ ************************************************************************************************************************************
+ * =Common CSS
+ ************************************************************************************************************************************
+*/
+
+body {
+	background: #fff;
+	font-family: arial, sans-serif;
+}
+
+.container {
+	position: relative;
+	width: @container;
+	height: auto;
+	margin: 0 auto;
+}
+
+input:focus,
+textarea:focus {
+	outline: 0;
+}
+
+a {
+	text-decoration: none;
+	// color: @cor-link;
+
+	&:hover {
+		text-decoration: none;
+		// color: lighten(@cor-link, 20%);
+	}
+
+	&:focus,
+	&:active {outline: 0;}
+}
+
+/*
+ ************************************************************************************************************************************
+ * =@media tablet
+ ************************************************************************************************************************************
+*/
+
+@media only screen and (max-width : @container) {
+	.container {
+		width: 1024px;
+		padding: 0 20px;
+		.box-sizing(border-box);
+	}
+}// @media only screen and (max-width : 1120px)
+
+/* Tablet Landscape */
+@media only screen and (max-width : 1024px) {
+	.container {
+		// width: 100%;
+	}
+}// @media only screen and (max-width : 1024px)
+
+/* Tablet Portrait */
+@media only screen and (max-width : 1023px) {
+	.container {
+		width: 768px;
+	}
+}// @media only screen and (max-width : 1023px)
+
+/*
+ ************************************************************************************************************************************
+ * =@media mobile
+ ************************************************************************************************************************************
+*/
+
+@media only screen and (max-width : 767px) {
+	.container {
+		width: 100%;
+		padding: 0 14px;
+		.box-sizing(border-box);
+	}
+}// @media only screen and (max-width : 767px)
