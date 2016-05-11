@@ -3,13 +3,13 @@
         "nome": "São Paulo",
         "cameras": [
             {
-                "url": "http://streaming-1-radar.g1.globo.com/epradar1/spcamera01_f1/playlist.m3u8",
-                "nome": "CAMERA 01 - TESTE A",
+                "url": "http://52.67.1.150:1935/live/tvtem1/playlist.m3u8",
+                "nome": "TESTE A - m3u8",
                 "thumb": ""
             },
             {
-                "url": "http://streaming-1-radar.g1.globo.com/epradar1/spcamera03_f1/playlist.m3u8",
-                "nome": "CAMERA 01 - TESTE B",
+                "url": "http://d3oxln3ii8hg82.cloudfront.net/live/tvtem1/manifest.f4m",
+                "nome": "TESTE B - HDS F4M",
                 "thumb": ""
             }
         ]
