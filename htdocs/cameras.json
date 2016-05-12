@@ -1,6 +1,6 @@
 {
     "cidades": {
-        "nome": "São Paulo",
+        "nome": "Sorocaba",
         "cameras": [
             {
                 "url": "http://52.67.1.150:1935/live/tvtem1/playlist.m3u8",
@@ -10,6 +10,16 @@
             {
                 "url": "http://d3oxln3ii8hg82.cloudfront.net/live/tvtem1/manifest.f4m",
                 "nome": "TESTE B - HDS F4M",
+                "thumb": ""
+            },
+			{
+                "url": "http://52.67.1.150:1935/live/_definst_/playlist.m3u8",
+                "nome": "TESTE C - M3U8 live/_definst_",
+                "thumb": ""
+            },
+			{
+                "url": "http://d3oxln3ii8hg82.cloudfront.net/live/_definst_/manifest.f4m",
+                "nome": "TESTE C - HDS live/_definst_",
                 "thumb": ""
             }
         ]
