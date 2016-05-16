@@ -4,22 +4,12 @@
         "cameras": [
             {
                 "url": "http://52.67.1.150:1935/live/tvtem1/playlist.m3u8",
-                "nome": "TESTE A - m3u8",
+                "nome": "TESTE A - IP WOWZA",
                 "thumb": ""
             },
             {
-                "url": "http://d3oxln3ii8hg82.cloudfront.net/live/tvtem1/manifest.f4m",
-                "nome": "TESTE B - HDS F4M",
-                "thumb": ""
-            },
-			{
-                "url": "http://52.67.1.150:1935/live/_definst_/playlist.m3u8",
-                "nome": "TESTE C - M3U8 live/_definst_",
-                "thumb": ""
-            },
-			{
-                "url": "http://d3oxln3ii8hg82.cloudfront.net/live/_definst_/manifest.f4m",
-                "nome": "TESTE D - HDS live/_definst_",
+                "url": "http://stream.cameradetransito.globo.com/live/tvtem1/playlist.m3u8",
+                "nome": "TESTE B - CNAME POC",
                 "thumb": ""
             }
         ]
